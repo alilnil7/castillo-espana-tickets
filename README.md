@@ -9,7 +9,9 @@ git clone https://github.com/alilnil7/castillo-espana-tickets.git
 cd castillo-espana-tickets
 ## 2. Backend
 bash
+
 cd server
+
 npm install express sqlite3 stripe qrcode axios dotenv cors bcrypt jsonwebtoken
  
 ## Crear archivo .env dentro de la carpeta server:
