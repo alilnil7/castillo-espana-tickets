@@ -8,7 +8,7 @@
 git clone https://github.com/alilnil7/castillo-espana-tickets.git
 cd castillo-espana-tickets
 ## 2. Backend
-bash
+
 
 cd server
 
@@ -35,18 +35,19 @@ FRONTEND_URL=http://localhost:5173
 
 ## Generar JWT_SECRET:
 
-bash
+
 node -e "console.log(require('crypto').randomBytes(32).toString('hex'))"
 ## Iniciar backend:
 
-bash
+
 npm run dev
 
 ## 3. Frontend
 Abrir nueva terminal:
 
-bash
+
 cd client
+
 npm install vue@3 vue-router@4 axios @stripe/stripe-js qrcode-vue3 leaflet vue3-leaflet
 
 ## Crear archivo .env dentro de la carpeta client:
@@ -64,7 +65,7 @@ VITE_APP_TITLE=Castillo de España
 
 ## Iniciar frontend:
 
-bash
+
 npm run dev
 
 ## 4. Abrir el proyecto
