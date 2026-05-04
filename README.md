@@ -41,16 +41,19 @@ cd client
 npm install vue@3 vue-router@4 axios @stripe/stripe-js qrcode-vue3 leaflet vue3-leaflet
 
 ## Crear archivo .env dentro de la carpeta client:
+
 env
 VITE_STRIPE_PUBLISHABLE_KEY=pk_test_tu_clave_publica
 VITE_API_URL=http://localhost:3000/api
 VITE_GOOGLE_MAPS_API_KEY=AIzaSy_tu_clave
 VITE_APP_ENV=development
 VITE_APP_TITLE=Castillo de España
-Iniciar frontend:
+
+## Iniciar frontend:
 
 bash
 npm run dev
+
 ## 4. Abrir el proyecto
 Backend: http://localhost:3000
 
