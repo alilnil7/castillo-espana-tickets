@@ -14,7 +14,7 @@ npm install express sqlite3 stripe qrcode axios dotenv cors bcrypt jsonwebtoken
  
 ## Crear archivo .env dentro de la carpeta server:
 
-env
+## env
 PORT=3000
 NODE_ENV=development
 STRIPE_SECRET_KEY=sk_test_tu_clave_secreta
@@ -42,11 +42,15 @@ npm install vue@3 vue-router@4 axios @stripe/stripe-js qrcode-vue3 leaflet vue3-
 
 ## Crear archivo .env dentro de la carpeta client:
 
-env
+## env
 VITE_STRIPE_PUBLISHABLE_KEY=pk_test_tu_clave_publica
+
 VITE_API_URL=http://localhost:3000/api
+
 VITE_GOOGLE_MAPS_API_KEY=AIzaSy_tu_clave
+
 VITE_APP_ENV=development
+
 VITE_APP_TITLE=Castillo de España
 
 ## Iniciar frontend:
