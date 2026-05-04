@@ -18,12 +18,19 @@ npm install express sqlite3 stripe qrcode axios dotenv cors bcrypt jsonwebtoken
 
 ## env
 PORT=3000
+
 NODE_ENV=development
+
 STRIPE_SECRET_KEY=sk_test_tu_clave_secreta
+
 STRIPE_PUBLISHABLE_KEY=pk_test_tu_clave_publica
+
 GOOGLE_MAPS_API_KEY=AIzaSy_tu_clave
+
 JWT_SECRET=tu_jwt_secret
+
 SQLITE_DB_PATH=./castle.db
+
 FRONTEND_URL=http://localhost:5173
 
 ## Generar JWT_SECRET:
